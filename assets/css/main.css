@@ -1170,6 +1170,32 @@ section,
 }
 
 /*--------------------------------------------------------------
+# functions Section
+--------------------------------------------------------------*/
+.fl-container{
+  background: #ffffff;
+  margin: 15px;
+  padding: 15px;
+  align-items: center;
+  border-radius: 3px;
+}
+
+.fl{
+  display: flex;
+  justify-content: center;
+}
+
+.fl-r{
+  float: right;
+  display: flex;
+  justify-content: center;
+}
+
+.fl-l{
+  float: left;
+}
+
+/*--------------------------------------------------------------
 # Call To Action Section
 --------------------------------------------------------------*/
 .call-to-action {
@@ -1335,7 +1361,13 @@ section,
 @media (max-width: 767px) {
   .pricing .box {
     max-width: 80%;
-    margin: 0 auto 30px auto;
+    margin: 0 auto 30px auto;   
+  }
+  .fl-r {
+    order: 1;
+  }
+  .fl-l {
+    order: 2;
   }
 }
 
@@ -1705,21 +1737,7 @@ section,
   color: var(--accent-color);
 }
 
-/*--------------------------------------------------------------
-# functionality Details Section
---------------------------------------------------------------*/
 
-.functionality{
-border: #df1529 solid 1px;
-}
-
-.funct-a{
-  border: #92df15 solid 1px;
-}
-
-.funct-b{
-  border: #1544df solid 1px;
-}
 
 /*--------------------------------------------------------------
 # Starter Section Section
