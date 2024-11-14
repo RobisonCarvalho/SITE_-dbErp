@@ -1173,11 +1173,9 @@ section,
 # functions Section
 --------------------------------------------------------------*/
 .fl-container{
-  background: #ffffff;
   margin: 15px;
   padding: 15px;
   align-items: center;
-  border-radius: 3px;
 }
 
 .fl{
@@ -1186,14 +1184,10 @@ section,
 }
 
 .fl-r{
-  float: right;
-  display: flex;
-  justify-content: center;
+  padding-left: 80px;
 }
 
-.fl-l{
-  float: left;
-}
+
 
 /*--------------------------------------------------------------
 # Call To Action Section
