@@ -855,6 +855,7 @@ section,
   padding: 120px 0 60px 0;
   display: flex;
   align-items: center;
+  background: linear-gradient(90deg, #ffffff 60%,#050834 0%,#050834 40%,#050834 0%);
 }
 
 .hero h1 {
