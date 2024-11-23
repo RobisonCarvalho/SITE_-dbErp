@@ -442,7 +442,7 @@ h6 {
 .cookies-msg{
   z-index: 3;
   width: 100%;
-  background-color: #193028;
+  background-color: #050834;
   border-width: .5px 0 0 0;
   border-style: solid;
   border-color: #76929E;
@@ -459,7 +459,7 @@ h6 {
 
 
 .cookies-sms{
-  color: #FFC95F;
+  color: #FF781E;
 }
 
 .cookies-msg .cookies-txt{
@@ -480,7 +480,7 @@ h6 {
 }
 
 .cookies-msg .cookies-btn button{
-  background-color: #FFC95F;
+  background-color: #7CBBF2;
   color: #130c0c;
   border: 0;
   font-weight: 700;
